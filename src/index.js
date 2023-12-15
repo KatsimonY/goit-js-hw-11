@@ -75,7 +75,6 @@ function handleResponse(response, page) {
     Notiflix.Notify.info("We're sorry, but you've reached the end of search results.");
   }
 
-//   galleryList.textContent = '';
   galleryList.insertAdjacentHTML('beforeend', markup);
 
   lightbox.refresh();

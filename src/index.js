@@ -9,7 +9,7 @@ const searchForm = document.querySelector('.search-form');
 const galleryList = document.querySelector('.gallery');
 const loadMoreButton = document.querySelector('.load-wrapper');
 
-const cardsPerPage = 20;
+const cardsPerPage = 40;
 let pageNumber = 1;
 
 loadMoreButton.hidden = true;
